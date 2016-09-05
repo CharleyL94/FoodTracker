@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">Food Tracker</string>
+    <string-array name="avoid_array">
+        <item>Unpasteurised cheese (brie, camembert, soft blue cheeses)</item>
+        <item>Pâté</item>
+        <item>Raw or partially cooked eggs (homemade Mayonasie)</item>
+        <item>Raw or undercooked meat(Steak tartare, rare/medium steak)</item>
+        <item>Liver</item>
+        <item>Limit your fish intake</item>
+    </string-array>
+    <string name="Query">If you have any questions read your Ready, Steady, Baby book or ask your midwife.</string>
+    <string name="Information">All information current at publication.</string>
 </resources>

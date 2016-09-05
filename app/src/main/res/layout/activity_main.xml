@@ -11,13 +11,18 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="What have you eaten today?"
         android:fontFamily="sans-serif-large"
-        android:id="@+id/textView"
-        android:textSize="30dp"/>
+        android:textSize="30dp"
+        android:id="@+id/textView"/>
+
 
     <EditText
-        android:layout_width="302dp"
-        android:layout_height="146dp"
-        android:id="@+id/editText" />
+        android:id="@+id/editText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="false"
+        android:gravity="top"
+        android:lines="10"
+         />
 
     <Button
         style="?android:attr/buttonStyleSmall"
