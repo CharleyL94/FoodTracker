@@ -9,7 +9,7 @@
         android:theme="@style/AppTheme">
 
         <activity
-            android:name="com.example.user.foodtracker.FoodTracker"
+            android:name=".FoodTracker"
             android:label="FoodTracker">
             <intent-filter>
                 <category
@@ -23,8 +23,14 @@
             android:label="FoodAdvice"
             android:parentActivityName=".FoodTracker">
 
+        </activity>
+        <activity
+            android:name=".FoodSubmit"
+            android:label="FoodSubmit"
+            android:parentActivityName=".FoodTracker">
 
         </activity>
+
 
 
     </application>

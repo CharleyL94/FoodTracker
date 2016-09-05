@@ -1,5 +1,6 @@
 package com.example.user.foodtracker;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.Button;
@@ -17,6 +18,8 @@ public class FoodAdvice extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_advice);
 
-        mAdviceButton = (Button) findViewById(R.id.button3);
+//        mAdviceButton = (Button) findViewById(R.id.button3);
+
+        Intent intent = getIntent();
     }
 }
