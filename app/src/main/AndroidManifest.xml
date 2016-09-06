@@ -10,7 +10,7 @@
 
         <activity
             android:name=".FoodTracker"
-            android:label="FoodTracker">
+            android:label="FoodBaby">
             <intent-filter>
                 <category
                     android:name="android.intent.category.LAUNCHER"/>

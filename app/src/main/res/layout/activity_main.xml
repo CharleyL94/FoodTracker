@@ -8,10 +8,16 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:text="Welcome to Food,Baby! Make a note and keep track of yor diet, or click the advice button for more information about healthy eating in pregnancy"
+        android:textSize="25dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="What have you eaten today?"
+        android:text="Make a note of what you have had to eat or drink today.(Don't forget to put the date!)"
         android:fontFamily="sans-serif-large"
-        android:textSize="30dp"
+        android:textSize="20dp"
         android:id="@+id/textView"/>
 
 

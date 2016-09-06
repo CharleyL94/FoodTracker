@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">Food Tracker</string>
+
     <string-array name="avoid_array">
         <item>Unpasteurised cheese (brie, camembert, soft blue cheeses)</item>
         <item>Pâté which is not cooked or contains liver or fish</item>

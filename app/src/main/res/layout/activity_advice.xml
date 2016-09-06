@@ -9,14 +9,18 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="What food should I avoid during pregnancy?"
+        android:text="What foods should I avoid during pregnancy?"
         android:id="@+id/textView2"
-        android:layout_gravity="center_horizontal" />
+        android:layout_gravity="center_horizontal"
+        android:textSize="30dp"/>
 
     <ListView
         android:id="@+id/avoid_food_array"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:entries="@array/avoid_array">
+        android:entries="@array/avoid_array"
+        android:textSize="15dp">
     </ListView>
+
+
 </LinearLayout>
