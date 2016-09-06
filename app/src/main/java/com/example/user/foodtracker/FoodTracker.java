@@ -42,7 +42,7 @@ public class FoodTracker extends AppCompatActivity {
                 String entry = mUserEntry.getText().toString();
 
                 saveToFile(entry);
-                readFromFile();
+//                readFromFile();
 
 
                 Intent intent = new Intent(FoodTracker.this, FoodSubmit.class);
@@ -79,30 +79,5 @@ public class FoodTracker extends AppCompatActivity {
 
     }
 
-    private void readFromFile(){
-        Context ctx = getApplicationContext();
-        File mySavedFile = ctx.getFileStreamPath(file);
-        Log.d("readfile", mySavedFile.exists() + "" );
 
-        Scanner myScanner = null;
-
-        try{
-            myScanner = new Scanner(mySavedFile);
-        }
-        catch (Exception ex){
-            ex.printStackTrace();
-        }
-
-        ArrayList<String> arrayOfLines = new ArrayList<String>();
-
-        while (myScanner.hasNextLine()){
-            arrayOfLines.add( (String) myScanner.nextLine());
-        }
-
-        for (int i = 0; i < arrayOfLines.size(); i++){
-            Log.d("readfile", arrayOfLines.get(i));
-        }
-
-
-    }
 }
