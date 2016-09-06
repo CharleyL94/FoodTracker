@@ -32,13 +32,13 @@
         android:id="@+id/button"
         android:layout_weight="0.21" />
 
-    <Button
-        style="?android:attr/buttonStyleSmall"
-        android:layout_width="157dp"
-        android:layout_height="wrap_content"
-        android:text="View Entries"
-        android:id="@+id/button2"
-        android:layout_weight="0.09" />
+    <!--<Button-->
+        <!--style="?android:attr/buttonStyleSmall"-->
+        <!--android:layout_width="157dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="View Entries"-->
+        <!--android:id="@+id/button2"-->
+        <!--android:layout_weight="0.09" />-->
 
     <Button
         style="?android:attr/buttonStyleSmall"

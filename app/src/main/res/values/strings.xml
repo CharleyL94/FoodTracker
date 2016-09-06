@@ -2,12 +2,14 @@
     <string name="app_name">Food Tracker</string>
     <string-array name="avoid_array">
         <item>Unpasteurised cheese (brie, camembert, soft blue cheeses)</item>
-        <item>Pâté</item>
+        <item>Pâté which is not cooked or contains liver or fish</item>
         <item>Raw or partially cooked eggs (homemade Mayonasie)</item>
         <item>Raw or undercooked meat(Steak tartare, rare/medium steak)</item>
-        <item>Liver</item>
-        <item>Limit your fish intake</item>
+        <item>Liver such as liver or haggis</item>
+        <item>Limit your fish intake to </item>
+        <item>Limit your caffeine intake to under 200mg (two cups of strong coffee a day)</item>
+        <item>Game that has been shot with lead pellets. Ask your butcher for more information</item>
+        <item>If you have any questions read your Ready, Steady, Baby book or ask your midwife. All information current at publication</item>
     </string-array>
-    <string name="Query">If you have any questions read your Ready, Steady, Baby book or ask your midwife.</string>
-    <string name="Information">All information current at publication.</string>
+
 </resources>
