@@ -2,7 +2,7 @@
     <string name="app_name">Food Tracker</string>
 
     <string-array name="avoid_array">
-        <item>Eat a well balanced diet</item>
+        <item>Eat a well balanced diet. But avoid:</item>
         <item>Unpasteurised cheese (brie, camembert, soft blue cheeses)</item>
         <item>Pâté which is not cooked or contains liver or fish</item>
         <item>Raw or partially cooked eggs (homemade Mayonasie)</item>

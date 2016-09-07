@@ -13,14 +13,17 @@
         android:id="@+id/textView2"
         android:layout_gravity="center_horizontal"
         android:textSize="30dp"
-        android:textColor="@color/textColor"/>
+        android:layout_marginLeft="15dp"
+        android:textColor="@color/textColor"
+        android:layout_marginTop="10dp"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Foods:"
         android:textSize="25dp"
-        android:textColor="@color/textColor"/>
+        android:textColor="@color/textColor"
+        android:layout_marginLeft="15dp"/>
 
     <ListView
         android:id="@+id/avoid_food_array"
@@ -35,7 +38,9 @@
     android:layout_height="wrap_content"
     android:text="Drinks:"
     android:textSize="25dp"
-        android:textColor="@color/textColor"/>
+        android:layout_marginLeft="15dp"
+        android:textColor="@color/textColor"
+        android:layout_marginTop="10dp"/>
 
     <ListView
     android:entries="@array/drink_array"
@@ -49,7 +54,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Further advice"
-        android:textColor="@color/textColor"/>
+        android:textColor="@color/textColor"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"/>
 
     <ListView
         android:entries="@array/advice_array"
