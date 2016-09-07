@@ -2,6 +2,7 @@
     <string name="app_name">Food Tracker</string>
 
     <string-array name="avoid_array">
+        <item>Eat a well balanced diet</item>
         <item>Unpasteurised cheese (brie, camembert, soft blue cheeses)</item>
         <item>Pâté which is not cooked or contains liver or fish</item>
         <item>Raw or partially cooked eggs (homemade Mayonasie)</item>
@@ -13,6 +14,7 @@
     </string-array>
 
     <string-array name="drink_array">
+        <item>Keep well hydrated, drink plenty of water during the day</item>
         <item>Current guidelines advise not to drink any alcohol during your pregnancy.</item>
         <item>Limit your caffeine intake to under 200mg (two cups of strong coffee a day)</item>
 
