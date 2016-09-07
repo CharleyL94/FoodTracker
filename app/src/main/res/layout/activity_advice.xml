@@ -25,7 +25,7 @@
     <ListView
         android:id="@+id/avoid_food_array"
         android:layout_width="match_parent"
-        android:layout_height="130dp"
+        android:layout_height="125dp"
         android:entries="@array/avoid_array"
         android:textSize="15dp">
     </ListView>
@@ -40,7 +40,7 @@
     <ListView
     android:entries="@array/drink_array"
     android:layout_width="wrap_content"
-    android:layout_height="130dp"
+    android:layout_height="125dp"
     android:textSize="15dp"
         android:layout_weight="0.11">
         </ListView>
@@ -50,5 +50,14 @@
         android:layout_height="wrap_content"
         android:text="Further advice"
         android:textColor="@color/textColor"/>
+
+    <ListView
+        android:entries="@array/advice_array"
+        android:layout_width="wrap_content"
+        android:layout_height="130dp"
+        android:textSize="15dp"
+        android:textColor="@color/textColor">
+
+    </ListView>
 
 </LinearLayout>

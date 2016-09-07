@@ -9,12 +9,18 @@
         <item>Liver such as liver or haggis</item>
         <item>Limit your fish intake to twice a week </item>
         <item>Game that has been shot with lead pellets. Ask your butcher for more information</item>
-        <item>If you have any questions read your Ready, Steady, Baby book or ask your midwife. All information current at publication</item>
+
     </string-array>
 
     <string-array name="drink_array">
         <item>Current guidelines advise to drink to alcohol during your pregnancy.</item>
         <item>Limit your caffeine intake to under 200mg (two cups of strong coffee a day)</item>
 
+    </string-array>
+
+
+    <string-array name="advice_array">
+    <item>If you have any questions read your Ready, Steady, Baby book or ask your midwife</item>
+    <item>All information correct at publishing</item>
     </string-array>
 </resources>
