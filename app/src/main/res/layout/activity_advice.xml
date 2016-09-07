@@ -14,7 +14,11 @@
         android:layout_gravity="center_horizontal"
         android:textSize="30dp"
         android:textColor="@color/textColor"/>
-
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Foods:"
+        android:textSize="25dp"/>
     <ListView
         android:id="@+id/avoid_food_array"
         android:layout_width="match_parent"
@@ -24,5 +28,10 @@
 
     </ListView>
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Drinks"
+        android:textSize="25dp"/>
 
 </LinearLayout>
