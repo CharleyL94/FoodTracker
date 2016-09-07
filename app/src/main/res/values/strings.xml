@@ -13,6 +13,8 @@
     </string-array>
 
     <string-array name="drink_array">
+        <item>Current guidelines advise to drink to alcohol during your pregnancy.</item>
         <item>Limit your caffeine intake to under 200mg (two cups of strong coffee a day)</item>
+
     </string-array>
 </resources>

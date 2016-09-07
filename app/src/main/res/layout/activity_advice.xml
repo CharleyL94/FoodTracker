@@ -14,31 +14,41 @@
         android:layout_gravity="center_horizontal"
         android:textSize="30dp"
         android:textColor="@color/textColor"/>
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Foods:"
-        android:textSize="25dp"/>
+        android:textSize="25dp"
+        android:textColor="@color/textColor"/>
+
     <ListView
         android:id="@+id/avoid_food_array"
         android:layout_width="match_parent"
-        android:layout_height="132dp"
+        android:layout_height="130dp"
         android:entries="@array/avoid_array"
         android:textSize="15dp">
-
     </ListView>
 
     <TextView
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:text="Drinks:"
-    android:textSize="25dp"/>
+    android:textSize="25dp"
+        android:textColor="@color/textColor"/>
 
     <ListView
-    android:entries="@+id/drink_array"
+    android:entries="@array/drink_array"
     android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:textSize="15dp"/>
+    android:layout_height="130dp"
+    android:textSize="15dp"
+        android:layout_weight="0.11">
+        </ListView>
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Further advice"
+        android:textColor="@color/textColor"/>
 
 </LinearLayout>
