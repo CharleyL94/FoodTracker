@@ -8,17 +8,18 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Welcome to Food,Baby! Make a note and keep track of yor diet, or click the advice button for more information about healthy eating in pregnancy"
+        android:text="Hello! Keep track of your diet, or click advice for more information about healthy eating in pregnancy"
         android:textSize="25dp"
         />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Make a note of what you have had to eat or drink today.(Don't forget to put the date!)"
-        android:fontFamily="sans-serif-large"
+        android:text="Note what you have had to eat or drink today, don't forget to put the date (dd/mm/yy)!"
+        android:fontFamily=""
         android:textSize="20dp"
-        android:id="@+id/textView"/>
+        android:id="@+id/textView"
+        android:textColor="@color/textColor"/>
 
 
     <EditText
@@ -31,12 +32,13 @@
          />
 
     <Button
-        style="?android:attr/buttonStyleSmall"
+        style="?android:attr/borderlessButtonStyle"
         android:layout_width="157dp"
         android:layout_height="wrap_content"
         android:text="Submit"
         android:id="@+id/button"
-        android:layout_weight="0.21" />
+        android:layout_weight="0.21"
+        android:textColor="@color/textColor"/>
 
     <!--<Button-->
         <!--style="?android:attr/buttonStyleSmall"-->
@@ -47,12 +49,13 @@
         <!--android:layout_weight="0.09" />-->
 
     <Button
-        style="?android:attr/buttonStyleSmall"
+        style="?android:attr/borderlessButtonStyle"
         android:layout_width="159dp"
         android:layout_height="wrap_content"
         android:text="Advice"
         android:id="@+id/button3"
-        android:layout_weight="0.19" />
+        android:layout_weight="0.19"
+        android:textColor="@color/textColor"/>
 
 
 </LinearLayout>
