@@ -11,11 +11,16 @@
         android:text="Hello! Keep track of your diet, or click advice for more information about healthy eating in pregnancy"
         android:textSize="25dp"
         />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Note what you have had to eat or drink today, don't forget to put the date (dd/mm/yy)!"
+        android:text="Note what you have had to eat or drink today, don't forget to put the date (dd/mm)!"
         android:fontFamily=""
         android:textSize="20dp"
         android:id="@+id/textView"
@@ -33,7 +38,7 @@
 
     <Button
         style="?android:attr/borderlessButtonStyle"
-        android:layout_width="157dp"
+        android:layout_width="180dp"
         android:layout_height="wrap_content"
         android:text="Submit"
         android:id="@+id/button"
@@ -51,11 +56,19 @@
     <Button
         style="?android:attr/borderlessButtonStyle"
         android:layout_width="159dp"
-        android:layout_height="wrap_content"
+        android:layout_height="100dp"
         android:text="Advice"
         android:id="@+id/button3"
         android:layout_weight="0.19"
         android:textColor="@color/textColor"/>
+
+    <TextView
+        android:layout_width="364dp"
+        android:layout_height="wrap_content"
+        android:text="All information current at publishing. Ask your midwife for more information"
+        android:id="@+id/textView3"
+        android:layout_weight="0.17"
+        android:textSize="15dp"/>
 
 
 </LinearLayout>
